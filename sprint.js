@@ -1148,6 +1148,9 @@
         var eventsArr = events.trim().split(" ")
 
         return this.each(function() {
+          if(selector){
+            handler = createDelegator(handler, selector, this);
+          }
           if (!getEvents(this)) {
             this.sprintEventListeners = {}
           }
