@@ -1,4 +1,4 @@
-# Sprint.js
+# Sprint.js [![Build Status](https://travis-ci.org/philplckthun/sprint.svg)](https://travis-ci.org/philplckthun/sprint)
 
 **This is a fork of Benjamin De Cock's original repository. Our goal is to push the development of Sprint further and merge back sometime in the future.**
 
