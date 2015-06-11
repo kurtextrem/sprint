@@ -1,5 +1,7 @@
 # Sprint.js [![Build Status](https://travis-ci.org/philplckthun/sprint.svg)](https://travis-ci.org/philplckthun/sprint)
 
+[![Join the chat at https://gitter.im/philplckthun/sprint](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/philplckthun/sprint?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 **This is a fork of Benjamin De Cock's original repository. Our goal is to push the development of Sprint further and merge back sometime in the future.**
 
 Sprint is a high-performance, 5KB (gzipped) DOM library for modern browsers. Sprint notably shines on bandwidth and resource constrained devices such as phones and tablets.
