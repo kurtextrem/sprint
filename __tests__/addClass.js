@@ -1,8 +1,14 @@
-jest.dontMock("../sprint");
+jest.dontMock('../sprint.js');
 
 describe('addClass', function() {
-  it('should do something', function() {
-    var $ = require("../sprint.js");
-    // code...
+  it('correctly adds classnames', function() {
+    var $ = require('../sprint.js');
+    document.body.innerHTML = '<div id="a"></div>';
+
+    $('#a').addClass('first');
+    expect($('#a').get(0).className).toEqual('first');
+
+    $('#a').addClass('second third');
+    expect($('#a').get(0).className).toEqual('first second third');
   });
 });
