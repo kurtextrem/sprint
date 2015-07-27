@@ -1419,6 +1419,8 @@
   var Sprint = function(selector, context) {
     return new Init(selector, context)
   }
+  
+  Sprint.fn = Init.prototype;
 
   if (typeof define === "function" && define.amd) {
     define(function() {
