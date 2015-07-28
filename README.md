@@ -26,6 +26,12 @@ Alternatively you can install Sprint via npm and import it, for example to use i
 npm install sprint-js
 ```
 
+There's Bower support as well:
+
+```
+bower install sprint
+```
+
 ## Philosophy
 
 Sprint is an alternative—not a replacement—for jQuery. jQuery offers more features, handles more edge cases and supports more browsers. Sprint is just a thin layer making the DOM friendlier without sacrificing on performance.
