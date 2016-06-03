@@ -1138,7 +1138,8 @@
     },
     on: function(events, selector, handler) {
       if(typeof selector !== "string"){
-        handler = selector
+        handler = selector;
+        selector = null;
       }
       // .on(events, handler)
       if (handler) {
@@ -1419,7 +1420,7 @@
   var Sprint = function(selector, context) {
     return new Init(selector, context)
   }
-  
+
   Sprint.fn = Init.prototype;
 
   if (typeof define === "function" && define.amd) {
