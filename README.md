@@ -1,4 +1,4 @@
-# Sprint.js [![Build Status](https://travis-ci.org/philplckthun/sprint.svg)](https://travis-ci.org/philplckthun/sprint)
+# Sprint.js [![Build Status](https://travis-ci.org/philpl/sprint.svg)](https://travis-ci.org/philpl/sprint)
 
 [![Join the chat at https://gitter.im/philplckthun/sprint](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/philplckthun/sprint?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
