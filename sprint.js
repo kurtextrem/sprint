@@ -513,7 +513,7 @@
         return toArray(context.getElementsByClassName(selector.slice(1)))
       }
       if (firstChar === "#") {
-        var el = context.getElementById ? context.getElementById(selector.slice(1)) : context.querySelector(selector)
+        var el = context.getElementById !== undefined ? context.getElementById(selector.slice(1)) : context.querySelector(selector)
         return el ? [el] : []
       }
       if (selector === "body") {
